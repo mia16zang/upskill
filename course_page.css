@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"Raleway", sans-serif;
+}
+
+
+.menu__box {
+    display: flex;
+    justify-self: start;
+    background: #1e232b;
+    width: 20%;
+}
+
+.nav__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding: 0 auto;
+    height: 100%;
+    width: 160px;
+    font-weight:200;
+    font-size: 32px;
+}
+
+.navbar__toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+}
+
+.search-box {
+    display: flex;
+    place-content: center;
+    width: 50%;
+}
+ 
+.search-box button {
+    height: 32px;
+    width: 32px;
+    margin-left: -5px;
+    background: rgb(211, 209, 209);
+    font-size: 17px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 16px;
+}
+		
+.search-box input[type=text] {
+    height: 32px;
+    font-size: 17px;
+    margin-top: 14px;
+    border-radius: 5px;
+}
+
+
+.main__container {
+   margin-left: 200px;
+   padding: 10px 10px;
+   display: flex;
+   flex-direction: column;
+}
+
+.main__container h1 {
+    font-weight: bold;
+}
+
+.skills__container {
+  width: 100%;
+  height: 300px;
+  font-weight: 400;
+}
+
+.skills__card {
+    width: 200px;
+    background-color: rgb(110, 170, 222);
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 100px 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .skills__card {
+        margin-bottom: 20px;
+        flex-wrap: wrap-reverse;
+    }
+
+    .skills__container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

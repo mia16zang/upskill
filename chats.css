@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"Raleway", sans-serif;
+}
+
+
+
+.search-box {
+    display: flex;
+    place-content: center;
+    width: 50%;
+}
+ 
+.search-box button {
+    height: 32px;
+    width: 32px;
+    margin-left: -5px;
+    background: rgb(0, 0, 0);
+    font-size: 17px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 16px;
+}
+		
+.search-box input[type=text] {
+    height: 32px;
+    font-size: 17px;
+    margin-top: 14px;
+    border-radius: 5px;
+}
+
+/* Sidebar Menu */
+
+
+    
+.button {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(196, 231, 236);
+    
+}
+
+
+
+.main__container {
+    left: 200px;
+    width: 80%;
+    height: 1200px;
+    padding-top: 100px;
+}
+
+.chats__container {
+    width: 95%;
+    height: 95%;
+    padding: 50px;
+}
+
+.chats__card {
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    height: 20%;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 20px 20px;
+    font-weight: 300;
+    box-shadow: 4px 4px 4px 4px #848689;
+
+}
+
+.chats__card:hover {
+    background-color: rgb(246, 250, 253);
+    scale: 105%;
+}

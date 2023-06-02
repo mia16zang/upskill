@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chats.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-mobile" style="display:none; z-index: 2000;" id="mySidebar" style="position:fixed">
+        <button class="w3-bar-item w3-button w3-large w3-hover-sand w3-button"
+        onclick="w3_close()">&times;</button>
+        <a href="learner.html" class="w3-bar-item w3-hover-sand w3-button">My Dashboard</a>
+        <a href="chats.html" class="w3-bar-item w3-hover-sand w3-button">Chats</a>
+        <a href="#" class="w3-bar-item w3-hover-sand w3-button">FAQs</a>
+        <a href="#" class="w3-bar-item w3-hover-sand w3-button">Explore</a>
+        <a href="#" class="w3-bar-item w3-hover-sand w3-button">Customer Care</a>
+        <a href="index2.html" class="w3-bar-item w3-hover-sand w3-button">Logout</a>
+       </div>
+      
+       <div id="main">
+      
+      
+          <div class="w3-bar w3-sand w3-mobile" style="position:fixed;overflow: visible;z-index: 999;">
+              <button id="openNav" class="w3-button w3-sand w3-hover-sand w3-large w3-margin w3-large w3-left" onclick="w3_open()">Menu  &#9776;</button>
+              <input type="text" class="w3-bar-item w3-input w3-round-large w3-margin-top w3-margin-left" placeholder="Search..">
+      
+              <button class="w3-button w3-bar-item w3-input w3-round-large w3-black w3-hover-pale-blue w3-margin-top"><i class="fa fa-search"></i></button>
+              <div class="w3-dropdown-hover w3-right w3-round-large">
+                  <button class="w3-button w3-circle w3-white w3-right w3-margin"><i class="fa fa-user"></i></button>
+                  <div class="w3-dropdown-content w3-bar-block w3-card w3-round-xlarge w3-margin" style="right:0">
+                    <a href="#" class="w3-bar-item w3-button">My Profile</a>
+                    <a href="#" class="w3-bar-item w3-button">Notifications</a>
+                    <a href="#" class="w3-bar-item w3-button">Settings</a>
+                    <a href="index2.html" class="w3-bar-item w3-button">Logout</a>
+                  </div>
+                </div>               
+          </div>
+
+    <div>
+        <div class="chats__container" style="padding-top: 80px">
+            <button class="w3-button w3-round w3-light-grey" style="font-weight: 200; margin:20px 0px 20px 10px;box-shadow: 4px 4px 4px 4px #848689;">Create a new post</button>
+            <div class="chats__card">
+                How do I join the company's sales club?
+                <div class="icons padding" style="margin-top: 20px; padding-bottom: 5px;">
+                    <i class="fa fa-thumbs-down w3-right w3-margin-right w3-margin-bottom">98</i>
+                    <i class="fa fa-thumbs-up w3-right w3-margin-right w3-margin-bottom">197</i>
+                    <i class="fa fa-comment w3-right w3-margin-right w3-margin-bottom">14</i>
+                </div>
+            </div>
+            <div class="chats__card">
+                What are some resources for Maria's course?
+                <div class="icons padding" style="margin-top: 20px; padding-bottom: 5px;">
+                    <i class="fa fa-thumbs-down w3-right w3-margin-right w3-margin-bottom">83</i>
+                    <i class="fa fa-thumbs-up w3-right w3-margin-right w3-margin-bottom">187</i>
+                    <i class="fa fa-comment w3-right w3-margin-right w3-margin-bottom">45</i>
+                </div>
+            </div><div class="chats__card">
+                I need people for my latest project.
+                <div class="icons padding" style="margin-top: 20px; padding-bottom: 5px;">
+                    <i class="fa fa-thumbs-down w3-right w3-margin-right w3-margin-bottom">76</i>
+                    <i class="fa fa-thumbs-up w3-right w3-margin-right w3-margin-bottom">65</i>
+                    <i class="fa fa-comment w3-right w3-margin-right w3-margin-bottom">48</i>
+                </div>
+            </div><div class="chats__card">
+                Is anyone else having issues with the course progress report?
+                <div class="icons padding" style="margin-top: 20px; padding-bottom: 5px;">
+                    <i class="fa fa-thumbs-down w3-right w3-margin-right w3-margin-bottom">45</i>
+                    <i class="fa fa-thumbs-up w3-right w3-margin-right w3-margin-bottom">1</i>
+                    <i class="fa fa-comment w3-right w3-margin-right w3-margin-bottom">90</i>
+                </div>
+            </div>
+            <div class="chats__card">
+                I want to start a club for sales.
+                <div class="icons padding" style="margin-top: 20px; padding-bottom: 5px;">
+                    <i class="fa fa-thumbs-down w3-right w3-margin-right w3-margin-bottom">33</i>
+                    <i class="fa fa-thumbs-up w3-right w3-margin-right w3-margin-bottom">34</i>
+                    <i class="fa fa-comment w3-right w3-margin-right w3-margin-bottom">1</i>
+                </div>
+            </div>
+            <div class="chats__card">
+                I am not recieving any messages on this site.
+                <div class="icons padding" style="margin-top: 20px; padding-bottom: 5px;">
+                    <i class="fa fa-thumbs-down w3-right w3-margin-right w3-margin-bottom">32</i>
+                    <i class="fa fa-thumbs-up w3-right w3-margin-right w3-margin-bottom">3</i>
+                    <i class="fa fa-comment w3-right w3-margin-right w3-margin-bottom">0</i>
+                </div>
+            </div><div class="chats__card">
+                I need people for my project.
+                <div class="icons padding" style="margin-top: 20px; padding-bottom: 5px;">
+                    <i class="fa fa-thumbs-down w3-right w3-margin-right w3-margin-bottom">23</i>
+                    <i class="fa fa-thumbs-up w3-right w3-margin-right w3-margin-bottom">12</i>
+                    <i class="fa fa-comment w3-right w3-margin-right w3-margin-bottom">5</i>
+                </div>
+            </div><div class="chats__card">
+                Is anyone else having issues with the course content?
+                <div class="icons padding" style="margin-top: 20px; padding-bottom: 5px;">
+                    <i class="fa fa-thumbs-down w3-right w3-margin-right w3-margin-bottom">16</i>
+                    <i class="fa fa-thumbs-up w3-right w3-margin-right w3-margin-bottom">4</i>
+                    <i class="fa fa-comment w3-right w3-margin-right w3-margin-bottom">5</i>
+                </div>
+            </div>
+            
+        </div>
+    </div> 
+    
+  <script src="chats.js"></script>
+</body>
+</html>

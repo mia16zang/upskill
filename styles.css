@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.w3-top {
+    background-color: #33aff2;
+}
+.bgimg-1 {
+    background-image: url('https://acutec.b-cdn.net/wp-content/uploads/2020/04/modern-workplace-2048x1214.jpeg');
+    min-height: 100%;
+  }
+
+
+
+/* Intro Section */
+
+.intro {
+    background: black;
+    height: 600px;
+    /*justify-content: stretch;*/
+    font-size: 1rem;
+    top: 0;
+    z-index: 1;
+    width: 100vw;
+    padding: 40px 40px;
+}
+
+.intro__container {
+    /*justify-content: stretch;*/
+    height: 80px;
+    width: 100vw;
+    margin: auto;
+    padding: 0;
+}
+
+.intro h1 {
+    font-size: 4rem;
+    background-color: #26C2E9;
+    display: grid;
+    justify-self: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #0901FE  0%, #01DCFE 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin: 20px auto;
+    padding: 20px 50px;
+}
+
+.mySlides {
+    display: none;
+    padding: 40px 0;
+    margin: 20px 0;
+    width: 200%;
+}
+
+
+
+/* Profiles Section */
+
+.profiles {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 200vh; */
+    z-index: 1;
+}
+
+.profiles h1 {
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    padding: 5px 20px 20px 20px;
+}
+
+.profiles__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.profile__card h2 {
+    color: black;
+    position: absolute;
+    font-weight: bold;
+    top: 280px;
+    left: 90px;
+}
+
+.profile__card p {
+    position: absolute;
+    top: 350px;
+    left: 50px; 
+    font-weight: 500;
+}
+
+/*Footer Section */
+.footer__container {
+    background-color: #141414;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    width: 100%;
+    z-index: 1;
+}
+
+#footer__logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footer__links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link--wrapper {
+    display: flex;
+}
+
+.footer__link--items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+.footer__link--items h2 {
+    margin-bottom: 16px;
+}
+
+.footer__link--items > h2 {
+    color: #fff;
+}
+
+.footer__link--items a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer__link--items a:hover {
+    color: grey;
+    transition: 0.3s ease-out;
+}
+
+.social__icon--link {
+    color: #fff;
+    font-size: 24px;
+}
+
+.social__media {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.social__media--wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+.social__icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.social__logo {
+    color: #fff;
+    justify-self: flex-start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .profiles h1 {
+        font-size: 20px;
+    }
+}

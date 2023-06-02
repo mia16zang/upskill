@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprising Bangalore</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="index.js"></script>
+
+</head>
+<body>
+    <!-- Nav Bar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-sand w3-card" id="myNavbar">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-wide w3-margin" style="font-weight: 600;">UpSkill</a>
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small w3-margin">
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white  w3-hover-text-yellow">Our Services</a>
+          <a href="#pricing" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-hover-text-yellow">Plans & Pricing</a>
+          <a href="login.html" class="w3-bar-item w3-button w3-hover-none w3-border-white  w3-hover-text-yellow">Login</a>
+          <a href="#" class="w3-bar-item w3-button w3-round-large w3-black w3-hover-white"> Get Started</a>
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    
+        <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-black w3-margin"  onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div id="navDemo" class="w3-bar-block w3-sand w3-hide w3-hide-large w3-hide-medium">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-black" onclick="toggleFunction()">Our Services</a>
+        <a href="#pricing" class="w3-bar-item w3-button w3-center w3-hover-black" onclick="toggleFunction()">Plans & Pricing</a>
+        <a href="login.html" class="w3-bar-item w3-button w3-center w3-hover-black" onclick="toggleFunction()">Login</a>
+        <a href="#" class="w3-bar-item w3-button w3-round-large w3-black w3-hover-white w3-center" style="width: 400px; margin: 0px 20px 0px 60px;"> Get Started</a>
+      </div>
+      </div>
+    </div>
+    <!--Intro Section-->
+    <!-- <div class="intro">
+        <div class="intro__container">
+            <h1 class="w3-center">Enterprising Bangalore</h1>
+            <div class="w3-content w3-display w3-display-topmiddle w3-section" style="max-width:500px; top:100px;">
+                <img class="mySlides" src="/images/pic1.jpg" style="width:100%">
+                <img class="mySlides" src="images/pic2.jpg" style="width:100%">
+                <img class="mySlides" src="images/pic3.jpg" style="width:100%">
+              </div>
+        </div>
+    </div> -->
+    <div class="bgimg-1 w3-display-container" id="home" style="width: 100vw;height: 70vh;">
+      <div class="w3-display-middle" style="white-space:nowrap;"style="background-image: url('https://assets.gqindia.com/photos/5ff84faa7b8be85e459b9de1/master/pass/Bangalore.jpg');">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">UpSkill </span>
+      </div>
+    </div>
+    <!-- Profiles Section-->
+    <div class="profiles">
+       <h1>Join our community as a learner or an instructor today.</h1>
+       <div class="profiles__container">
+        <div>
+        <a href="login.html">
+        <div class="w3-card-4 w3-sand w3-margin-right w3-circle w3-hover-yellow w3-padding w3-mobile">
+          <img class="" src="https://cdn-icons-png.flaticon.com/512/3068/3068327.png" alt="Car" style=" scale:80%">
+        </div>
+        </a>
+        <h2 class="w3-center w3-margin-top" style="font-weight: 600;">Learner</h2>
+        <p class="w3-text w3-center w3-margin-top" style="font-size: 20px; font-weight: 500; margin-bottom: 50px;">Grow your skills today!</p>
+        </div>
+
+        <div>
+          
+        <div class="w3-card-4 w3-sand w3-circle w3-margin-left w3-ho w3-mobile w3-padding w3-hover-yellow">
+          <img class="" src="https://cdn-icons-png.flaticon.com/512/1436/1436766.png" alt="Car" style="scale:75%">
+        </div>
+        <h2 class="w3-center w3-margin-top" style="font-weight: 600;">Instructor</h2>
+        <p class="w3-center w3-margin-top" style="font-size: 20px; font-weight: 500; margin-bottom: 50px;">Help your employees gain <br> new skills!</p>
+        </div>
+
+    </div> 
+
+    <!-- About Section -->
+<div class="w3-container w3-sand w3-mobile" style="padding:128px 16px; width:100%;" id="about">
+  <h3 class="w3-center">ABOUT US</h3>
+  <p class="w3-center w3-large">Key features of our company</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Connection</p>
+      <p>We offer seamless connection and communication between you and your employees.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>We are the largest community solely dedicated to help companies create personalized training programs.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>We help design a great and engaging program for your employees.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>We will support you in every way we can to ensure your company's needs are met.</p>
+    </div>
+  </div>
+</div>
+
+    <!--Plans & Pricing-->
+    <div class="w3-white" style="width: 100%;">
+    <div class="w3-row-padding w3-center w3-padding-64 w3-white" id="pricing">
+      <h2>PLANS & PRICING</h2>
+      <p>Choose a pricing plan that fits your company's needs.</p><br>
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-hover-shadow w3-white">
+          <li class="w3-theme">
+            <p class="w3-xlarge">Basic</p>
+          </li>
+          <li class="w3-padding-16"><b>10GB</b> Storage</li>
+          <li class="w3-padding-16"><b>3</b> Training Programs</li>
+          <li class="w3-padding-16"><b>100</b> Employees Allowance</li>
+          <li class="w3-padding-16"><b>Endless</b> Support</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide"><i class="fa fa-usd"></i> 1000</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-theme-l5 w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large"><i class="fa fa-check"></i> Get Started</button>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-hover-shadow w3-white">
+          <li class="w3-theme-l2">
+            <p class="w3-xlarge">Pro</p>
+          </li>
+          <li class="w3-padding-16"><b>25GB</b> Storage</li>
+          <li class="w3-padding-16"><b>25</b> Training Programs</li>
+          <li class="w3-padding-16"><b>500</b> Employees Allowance</li>
+          <li class="w3-padding-16"><b>Endless</b> Support</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide"><i class="fa fa-usd"></i> 2500</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-theme-l5 w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large"><i class="fa fa-check"></i> Get Started</button>
+          </li>
+        </ul>
+      </div>
+  
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-hover-shadow w3-white">
+          <li class="w3-theme">
+            <p class="w3-xlarge">Premium</p>
+          </li>
+          <li class="w3-padding-16"><b>1TB</b> Storage</li>
+          <li class="w3-padding-16"><b>50</b> Training Programs</li>
+          <li class="w3-padding-16"><b>No limit</b> to employees allowed</li>
+          <li class="w3-padding-16"><b>Endless</b> Support</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide"><i class="fa fa-usd"></i> 10000</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-theme-l5 w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large"><i class="fa fa-check"></i> Get Started</button>
+          </li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+    <!--Footer Section-->
+  <div class="footer__container">
+    <div class="footer__links w3-mobile">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>About Us</h2>
+          <a href="#">How it works</a>
+          <a href="#">Testimonials</a>
+          <a href="#">Careers</a>
+          <a href="#">Investments</a>
+          <a href="#">Terms of Service</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Contact Us</h2>
+          <a href="#">Contact</a>
+          <a href="#">Support</a>
+          <a href="#">Sponsorships</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Media</h2>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">Youtube</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <div class="social__media">
+      <div class="social__media--wrap w3-right w3-mobile">
+        <div class="footer__logo">
+          <a href="#" id="footer__logo">UpSkill</a>
+        </div>
+        <p class="website__right">Enterprising Bangalore 2020. All rights reserved</p>
+        <div class="social__icons">
+          <a href="#" class="social__icon--link" target="blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#" class="social__icon--link" target="blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="#" class="social__icon--link" target="blank">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="#" class="social__icon--link" target="blank">
+            <i class="fa fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="course_page.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!--Sidebar Menu-->
+
+ <div class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-mobile" style="display:none; z-index: 2000;" id="mySidebar" style="position:fixed">
+  <button class="w3-bar-item w3-button w3-large w3-hover-sand w3-button"
+  onclick="w3_close()">&times;</button>
+  <a href="learner.html" class="w3-bar-item w3-hover-sand w3-button">My Dashboard</a>
+  <a href="chats.html" class="w3-bar-item w3-hover-sand w3-button">Chats</a>
+  <a href="#" class="w3-bar-item w3-hover-sand w3-button">FAQs</a>
+  <a href="#" class="w3-bar-item w3-hover-sand w3-button">Explore</a>
+  <a href="#" class="w3-bar-item w3-hover-sand w3-button">Customer Care</a>
+  <a href="index2.html" class="w3-bar-item w3-hover-sand w3-button">Logout</a>
+ </div>
+
+ <div id="main">
+
+
+    <div class="w3-bar w3-sand w3-mobile" style="position: fixed; z-index: 800; overflow: visible;">
+        <button id="openNav" class="w3-button w3-sand w3-hover-sand w3-large w3-margin w3-large w3-left" onclick="w3_open()">Menu  &#9776;</button>
+        <input type="text" class="w3-bar-item w3-input w3-round-large w3-margin-left w3-margin-bottom w3-margin-top" placeholder="Search..">
+
+        <button class="w3-button w3-bar-item w3-input w3-round-large w3-black w3-hover-pale-sand w3-margin-top"><i class="fa fa-search"></i></button>
+        <div class="w3-dropdown-hover w3-right w3-round-large" style="">
+            <button class="w3-button w3-circle w3-white w3-right w3-margin"><i class="fa fa-user"></i></button>
+            <div class="w3-dropdown-content w3-bar-block w3-card w3-round-xlarge w3-margin" style="right:0;">
+              <a href="#" class="w3-bar-item w3-button">My Profile</a>
+              <a href="#" class="w3-bar-item w3-button">Notifications</a>
+              <a href="#" class="w3-bar-item w3-button">Settings</a>
+              <a href="#" class="w3-bar-item w3-button">Logout</a>
+            </div>
+          </div>
+          
+    </div>
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%; margin-top: 75px;" >
+        <h3 class="w3-bar-item">Course Menu</h3>
+        <a href="course_page.html" class="w3-bar-item w3-button">Course Overview</a>
+        <button class="w3-button w3-block w3-left-align w3-black" onclick="myAccFunc()">
+            Course Content <i class="fa fa-caret-down"></i>
+        </button>
+          <div id="demoAcc" class="w3-hide w3-white w3-card">
+            <a href="#" class="w3-bar-item w3-button">Introduction</a>
+            <a href="unit1.html" class="w3-bar-item w3-button w3-black">Unit 1</a>
+            <a href="#" class="w3-bar-item w3-button">Unit 2</a>
+            <a href="#" class="w3-bar-item w3-button">Unit 3</a>
+            <a href="#" class="w3-bar-item w3-button">Conclusion</a>
+          </div>
+        <a href="#" class="w3-bar-item w3-button">Notes</a>
+        <a href="#" class="w3-bar-item w3-button">Resources</a>
+        <a href="#" class="w3-bar-item w3-button">Progress Report</a>
+        <a href="#" class="w3-bar-item w3-button">Feedback</a>
+      </div>
+    </div>
+     <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-pale-sand w3-margin"  onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa-solid fa-bars"></i>
+     </a>
+     </div>
+     </div>
+    </div>
+    <!--Main Section-->
+   <div class="main__container" style="margin-left: 25%;">
+     <h1 style="padding-top: 60px;">Unit 1</h1>
+     <div class="video__container" style="padding-right: 60px;">
+        <h2 style="font-weight: 200;">How to Create a Sales Video</h2>
+        <!--How to make a Sales Video - by James Wedmore on youtube.-->
+        <iframe width="414" height="232" src="https://www.youtube.com/embed/xP3kSzB-IE8" title="How to Create a Sales Video (The 8-Step Formula)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+     <div class="reading">
+        <h2 style="font-weight: 200;">Reading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, est? Officia voluptates asperiores recusandae cumque officiis aspernatur explicabo! Autem, nostrum nam. Ex mollitia atque tenetur placeat vero sapiente voluptatum magni?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto debitis quo saepe libero aliquid quaerat, recusandae fugit dignissimos quasi eaque deleniti, praesentium excepturi quam reprehenderit? Fugit, vitae illum? Doloremque, ad.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis tenetur culpa necessitatibus maiores eum, quo ipsa earum vitae obcaecati beatae neque fugiat libero ea natus autem modi esse atque amet!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita deserunt incidunt alias voluptates pariatur quisquam quia repellat nobis, quo ullam dolores corporis aliquam, earum saepe quaerat eligendi officiis unde modi.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo modi, velit eos numquam nihil laudantium. Iusto, saepe possimus neque, officia id et pariatur impedit vitae dolore maxime rerum placeat magni?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veniam reprehenderit laboriosam voluptatibus fugiat nemo pariatur sit, explicabo odit exercitationem non, velit ratione doloremque aliquid possimus in at amet architecto.
+
+        </p>
+     </div>
+   </div>
+    
+ 
+</div>
+
+    <script src="unit1.js"></script>
+</body>
+</html>
